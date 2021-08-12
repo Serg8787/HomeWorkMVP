@@ -15,9 +15,11 @@ class MainActivity : AppCompatActivity(),MainActivityContract.MainView {
         btFirstFragment.setOnClickListener {
             presenter.showFirstFragment()
         }
+
         btSecondFragment.setOnClickListener {
             presenter.showSecondFragment()
         }
+
         btThirdFrament.setOnClickListener {
             presenter.showThirdragment()
         }

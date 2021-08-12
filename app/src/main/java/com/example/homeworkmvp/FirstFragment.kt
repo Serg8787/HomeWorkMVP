@@ -16,7 +16,6 @@ import android.view.ViewGroup
  */
 class FirstFragment : Fragment(),MainActivityContract.FirstFragmentView {
 
-
     lateinit var presenterFirst:MainActivityContract.Presenter
 
     override fun setPresenter(presenter: MainActivityContract.Presenter) {

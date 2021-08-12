@@ -10,7 +10,7 @@
         android:id="@+id/btFirstFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button1"
+        android:text="BtFr1"
         app:layout_constraintEnd_toStartOf="@+id/btSecondFragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
-        android:text="Button2"
+        android:text="BtFr2"
         app:layout_constraintBottom_toBottomOf="@+id/btFirstFragment"
         app:layout_constraintEnd_toStartOf="@+id/btThirdFrament"
         app:layout_constraintTop_toTopOf="@+id/btFirstFragment"
@@ -30,7 +30,7 @@
         android:id="@+id/btThirdFrament"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button3"
+        android:text="BtFr3"
         app:layout_constraintBottom_toBottomOf="@+id/btSecondFragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btSecondFragment" />
